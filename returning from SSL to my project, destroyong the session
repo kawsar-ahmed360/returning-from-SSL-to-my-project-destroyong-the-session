@@ -1,0 +1,10 @@
+Headline : returning from SSL to my project, destroyong the session
+
+Ans:
+
+Solution for laravel 8-
+config/session.php
+
+'secure' => true, 'same_site' => 'none'
+
+Thanks
